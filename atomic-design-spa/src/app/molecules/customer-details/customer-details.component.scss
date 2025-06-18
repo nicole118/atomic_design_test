@@ -1,0 +1,23 @@
+$border-color: #EEEEEE;
+$text-color: #622A7D;
+
+
+.customer-details-box {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin: 2px 15px;
+    background-color: #ffffff;
+    color: #622A7D;
+    border: $border-color 2px solid;
+    border-radius: 5px;
+}
+
+.left {
+    width: 45%;
+    float: left;
+}
+.right {
+    width: 55%;
+    text-align: end;
+}

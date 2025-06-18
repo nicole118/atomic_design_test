@@ -1,0 +1,10 @@
+<div class="customer-details-box">
+    <span class="left">
+        <app-icon *ngIf="iconType() == 'mobile'" [iconType]="'mobile'"></app-icon>
+        <app-icon *ngIf="iconType() == 'email'" [iconType]="'email'"></app-icon>
+        <app-content-text [textType]="textType()" [textContent]="textContent()"></app-content-text>
+    </span>
+    <span class="right">
+        <app-external-link [searchValue]="textContent()"></app-external-link>
+    </span>
+</div>

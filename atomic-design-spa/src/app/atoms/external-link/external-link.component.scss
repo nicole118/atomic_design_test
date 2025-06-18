@@ -1,0 +1,14 @@
+$primary-color: rgb(119, 18, 119);
+
+button{
+   border: none;
+   background-color: transparent;
+   margin: 5px;
+   padding: 8px;
+}
+
+i {
+    display: flex;
+    color: $primary-color;
+    font-size: medium;
+}

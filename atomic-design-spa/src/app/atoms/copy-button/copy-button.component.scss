@@ -1,0 +1,15 @@
+$primary-color: rgb(119, 18, 119);
+
+button{
+   border: rgb(210, 210, 210) 1px solid;
+   border-radius: 10%;
+   background-color: rgb(233, 231, 231);
+   margin: 5px;
+   padding: 8px;
+}
+
+i {
+    display: flex;
+    color: $primary-color;
+    font-size: medium;
+}

@@ -1,0 +1,23 @@
+$border-color: #EEEEEE;
+
+.header-box {
+    width: 98%;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: $border-color 2px solid;
+    align-content: end;
+    margin: 0 15px;
+}
+
+.left {
+    width: 75%;
+    display: inline-flex;
+    float: left;
+    align-items: center;
+}
+
+.right {
+    width: 25%;
+    text-align: end;
+    align-items: center;
+}

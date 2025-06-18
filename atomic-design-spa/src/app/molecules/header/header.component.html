@@ -1,0 +1,9 @@
+<div class="header-box">
+    <span class="left">
+        <app-icon [iconType]="iconType()"></app-icon>
+        <app-header-text [headerText]="headerText()"></app-header-text>
+    </span>
+    <span *ngIf="headerType() == 'review'" class="right">
+        <app-external-link [searchValue]="headerText()"></app-external-link>
+    </span>
+</div>

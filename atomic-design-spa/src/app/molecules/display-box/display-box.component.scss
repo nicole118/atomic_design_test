@@ -1,0 +1,12 @@
+$yellow-color: #FFF5E6;
+$border-color: #FFE5D1;
+$text-color: #BF632B;
+
+.yellow-box {
+    color: $text-color;
+    display: inline-flex;
+    background-color: $yellow-color;
+    border: $border-color 2px solid;
+    border-radius: 10px;
+    margin: 5px;
+}

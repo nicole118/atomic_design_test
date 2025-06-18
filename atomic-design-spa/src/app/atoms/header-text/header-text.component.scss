@@ -1,0 +1,11 @@
+$font: Arial, Helvetica, sans-serif;
+$content-color: #3e3e3e;
+
+h2 {
+    color: $content-color;
+    font: {
+        family: $font;
+        weight: bold;
+        size: 20px;
+    }
+}

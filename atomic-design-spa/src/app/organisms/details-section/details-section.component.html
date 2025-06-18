@@ -1,0 +1,42 @@
+<div class="details">
+    <div class="header">
+        <app-header [headerType]="headerType()" [headerText]="headerText()" [iconType]="iconType()"></app-header>
+    </div>
+
+    <div class="details-row">
+        <span class="long">
+            <app-customer-details [textContent]="'Mrs Anais DAYAN MARTIN'" [textType]="'normal'"></app-customer-details>
+        </span>
+        <span class="short">
+            <app-copy-button [clipboardValue]="'Mrs Anais DAYAN MARTIN'"></app-copy-button>
+        </span>
+    </div>
+
+
+    <div class="details-row">
+        <span class="long">
+            <app-customer-details [textContent]="'4 rue du Bessoit, 59300 Lille Port 12, Escalier F, 2e etage'" [textType]="'normal'"></app-customer-details>
+        </span>
+        <span class="short">
+            <app-copy-button [clipboardValue]="'4 rue du Bessoit, 59300 Lille Port 12, Escalier F, 2e etage'"></app-copy-button>
+        </span>
+    </div>
+
+    <div class="details-row">
+        <span class="long">
+            <app-customer-details [iconType]="'mobile'" [textContent]="'+33 6 34 11 66 44'" [textType]="'hyperlink'"></app-customer-details>
+        </span>
+        <span class="short">
+            <app-copy-button [clipboardValue]="'+33 6 34 11 66 44'"></app-copy-button>
+        </span>
+    </div>
+
+    <div class="details-row">
+        <span class="long">
+            <app-customer-details [iconType]="'email'" [textContent]="'anais.martin59@gmail.com'" [textType]="'hyperlink'"></app-customer-details>
+        </span>
+        <span class="short">
+            <app-copy-button [clipboardValue]="'anais.martin59@gmail.com'"></app-copy-button>
+        </span>    
+    </div>
+</div>
